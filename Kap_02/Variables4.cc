@@ -9,4 +9,5 @@ int main()
    int res = value1 / value2; // Hier sollte 3,33333 rauskommen. Das kann aber nicht in einem int abgespeichert werden!
    std::cout << "division: " << res << std::endl;
 
+    return 0;
 }
