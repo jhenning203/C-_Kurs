@@ -17,6 +17,6 @@ int main()
 
     int older_age2 = age1 > age2 ? age1 : age2; // Bool Ausdruck ? (prüfen ob wahr) Enn true, dann... : wenn false, dann...
 
-    std::cout << older_age1 << older_age2;
-    return 0;
+    std::cout << older_age1 << older_age2
+    return 0
 }

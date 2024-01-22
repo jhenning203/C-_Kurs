@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "d:/c++_Workspace/C-_Kurs/Computergame/Game1",
-      "program": "d:/c++_Workspace/C-_Kurs/Computergame/Game1/build/Debug/outDebug",
+      "externalConsole": false,
+      "cwd": "/Users/jannishenning/Documents/GitHub/C-_Kurs/Kap_02.2",
+      "program": "/Users/jannishenning/Documents/GitHub/C-_Kurs/Kap_02.2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
