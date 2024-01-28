@@ -3,17 +3,16 @@
 
 int main()
 {
-    std::int32_t sum = 10U;
+    std::int32_t sum = 0U;
 
-    do /*Die Zeilen 10 bis 14 werden mindestens einmal ausgeführt, unabhängig, von der While-Bedingung. Erst danach wird
-    die while-Bedingung überprüft bez. ausgeführt */
+    while (sum < 10U) // Wird so lange ausgeefürt, bis das Kriterium nicht mehr erfüllt ist
     {
         std::cout << "\nCurrent Sum: " << sum << " please enter next value: ";
         std::int32_t input = 0U;
         std::cin >> input;
 
         sum += input;
-    } while (sum < 10U);
+    }
 
 
     return 0;
