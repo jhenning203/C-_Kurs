@@ -21,7 +21,7 @@ int main()
         }
 
     }
-    std::cout << number << "Ist eine Primzahl? " << prime << std::endl;
+    std::cout << number << "Ist eine Primzahl? " << std::boolalpha <<prime << std::endl;
 
 
 }
