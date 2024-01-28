@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/c++_Workspace/C-_Kurs/Kap_02/Kap_02.3",
-      "program": "d:/c++_Workspace/C-_Kurs/Kap_02/Kap_02.3/build/Debug/outDebug",
+      "cwd": "d:/c++_Workspace/C-_Kurs/Computergame/Game2",
+      "program": "d:/c++_Workspace/C-_Kurs/Computergame/Game2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
