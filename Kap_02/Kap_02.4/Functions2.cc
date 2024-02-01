@@ -12,6 +12,13 @@ Klammern stehen die Input Params, hier sind sie leer */
     return number; //Die Funkt. gibt number zurück (vom Typ std::int32_t)
 }
 
+void print_bool(bool value) // Funktionen vom Typ void geben keine return values zurück
+{
+    std::cout << std::boolalpha << value << '\n';
+
+    return; //Dieses return beendet nur die Fkt. ohne etwas zurückzugeben.
+}
+
 bool is_even (std::int32_t number)// Übergabeparam ist hier ein int32_t mit Name number. Dieser kommt aus der main().
 {
     if (number % 2 == 0)
@@ -36,6 +43,9 @@ int main ()
     bool result = is_even(user_number); //Übergeben von user_number an is_even
 
     std::cout << "Is even? " << std::boolalpha << result << '\n';
+
+    print_bool (result);
+
 
     return 0;
 }
