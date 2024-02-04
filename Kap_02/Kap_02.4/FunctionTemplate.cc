@@ -5,11 +5,13 @@
 gebrauch entweder als double oder als int zu verwenden. Mit welchem identifier die Fkt. letutenendes initialisiert wird,
 hängt davon ab, welcher Typ in derr main() übergeben wird*/
 
+
 template <typename T> // Definieren des Templates T
 T max (T a, T b) // Definieren und deklarierern der Funktion max als Template T
 {
     return a > b ? a : b;
 }
+
 
 int main ()
 {
