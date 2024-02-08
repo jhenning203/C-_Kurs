@@ -3,23 +3,26 @@ Wichtig in c++ ist die Unterscheidung zwischen Post- und Preinkrement. Beim Post
 
 ## Postinkrement
 
-''' cpp
+``` c++
 i++ //Postinkrement
-'''
+```
+
 Hier wird der Wert erst nach durchlaufen der Codezeile erhöht.
 
-''' cpp
+``` c++
  int i = 0;
  std::main(i++); /* Hier würde man erwarten, dass eins übergeben wird. Es wird aber zuerst 0 übergeben und dann inkrementiert */
-'''
+```
 
 ## Preinkrement
 
-''' cpp
+``` c++
 ++i //Preinkrement
-'''
+```
+
 Hier wird der Wert zuerst erhöht, und dann die Codezeile fertig durchlaufen.
-''' cpp
+
+``` cpp
  int i = 0;
  std::main(++i); /* Hier wird jetzt eins an die Funktion übergeben */
-'''
+```
