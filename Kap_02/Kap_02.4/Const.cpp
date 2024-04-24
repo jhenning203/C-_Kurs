@@ -8,8 +8,7 @@ Static-Speicher zu schreiben*/
 int func (const int val) //const beschreibt eine Variable, deren Wert nicht mehr verändert wird (währemd der Laufzeit)
 {
     static int counter = 0; /*Diese Variable wird einmal zur Compilezeit angelegt und behält ihren Wert, unabhängig von
-    den Aufrufen Die Variable hat sozusagen ein unveränderbares Gedächtnis
-    */
+    den Aufrufen Die Variable hat sozusagen ein unveränderbares Gedächtnis*/
     counter ++;
 
     if (counter <= 3)
